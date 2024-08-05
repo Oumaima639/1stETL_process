@@ -8,8 +8,5 @@ numbers_y = [75, 65, 35, 75, 30]
 
 Expected Output:
 
-Given list: [10, 20, 30, 40, 10]
-result is True
-
-numbers_y = [75, 65, 35, 75, 30]
-result is False
+True
+False
