@@ -11,7 +11,7 @@ for i in range(0,10):
 #This will output what was stated in the description of the exercise
 #if we wanted to start by the number one we simply change the start of the range to be 1 insted of 0 (the lower bound of the range is always included)
 
-#I wanted to highlight that when you're looping (whether using a for loop or a while loop) the name you assign to the iteration variable in it self doesn't really matter what actually makes a difference is what you're looping through or the iterable.
+#I wanted to highlight that when you're iterating (whether using a for loop or a while loop) the name you assign to the iteration variable in it self doesn't really matter what actually makes a difference is what you're iterating through or the iterable.
 #in the case of a list, string or a dictionnay the iteration variable represents the each element in the iterable. for instance :
 #input 
 
@@ -51,7 +51,7 @@ for i in string :
 #n
 #g
 
-#However, when we loop through a range things change and the iteration variable we name referes to the index of each element. for instance :
+#However, when we iterate through a range things change and the iteration variable we name referes to the index of each element. for instance :
 
 list = [1,2,3,4,5,6,7,8,9]
 for i in range(0,len(list)) :
